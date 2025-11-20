@@ -55,7 +55,7 @@ const Register = () => {
               <small>{errors.password && <div className='text-danger'>{errors.password}</div>}</small>
             </div>            
             
-            {success && <div className='alert alert-success'>Registration Successful</div>}
+            {success && <div className='text-center alert alert-success'>Registration Successful</div>}
 
             {loading ? (
               <button type='submit' className='btn btn-info d-block mx-auto' disabled>Please Wait...</button>
